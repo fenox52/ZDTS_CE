@@ -1,0 +1,4 @@
+define service ZUI_PALLETCODE {
+  expose ZC_PALLETCODE_S as PalletCodeAll;
+  expose ZC_PALLETCODE as PalletCode;
+}

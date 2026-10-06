@@ -1,0 +1,45 @@
+@Metadata.layer: #CUSTOMER
+@UI: {
+  headerInfo: {
+    typeName: 'HuLastNumber', 
+    typeNamePlural: 'HuLastNumbers', 
+    title: {
+      type: #STANDARD, 
+      label: 'HU Last Number', 
+      value: 'Source'
+    }
+  }
+}
+annotate view ZC_HuLastNumber with
+{
+  @UI.identification: [ {
+    position: 1 
+  } ]
+  @UI.lineItem: [ {
+    position: 1 
+  } ]
+  @UI.facet: [ {
+    id: 'ZI_HuLastNumber', 
+    purpose: #STANDARD, 
+    type: #IDENTIFICATION_REFERENCE, 
+    label: 'HU Last Number', 
+    position: 1 
+  } ]
+  Source;
+  
+  @UI.identification: [ {
+    position: 2 
+  } ]
+  @UI.lineItem: [ {
+    position: 2 
+  } ]
+  Prefix;
+  
+  @UI.identification: [ {
+    position: 3 
+  } ]
+  @UI.lineItem: [ {
+    position: 3 
+  } ]
+  LastHuNo;
+}

@@ -1,0 +1,5 @@
+@MappingRole: true
+define role ZC_HuLastNumber {
+  grant select on ZC_HuLastNumber
+  where INHERITING CONDITIONS FROM ENTITY ZI_HuLastNumber;
+}

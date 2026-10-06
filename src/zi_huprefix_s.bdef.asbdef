@@ -1,0 +1,62 @@
+managed with additional save implementation in class ZBP_I_HUPREFIX_S unique;
+strict;
+with draft;
+
+define behavior for ZI_HuPrefix_S alias HuPrefixAll
+draft table ZDTS_HU_PREF_D_S
+with unmanaged save
+lock master total etag LastChangedAtMax
+authorization master( global )
+
+{
+  field ( readonly )
+   SingletonID;
+
+
+  update;
+  internal create;
+  internal delete;
+
+  draft action ( features : instance ) Edit;
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Resume;
+  draft determine action Prepare;
+  action ( features : instance ) SelectCustomizingTransptReq parameter D_SelectCustomizingTransptReqP result [1] $self;
+
+  association _HuPrefix { create ( features : instance ); with draft; }
+}
+
+define behavior for ZI_HuPrefix alias HuPrefix
+persistent table ZDTS_HU_PREFIX
+draft table ZDTS_HU_PREFIX_D
+lock dependent by _HuPrefixAll
+authorization dependent by _HuPrefixAll
+
+{
+  field ( mandatory : create )
+   Source,
+   Plant;
+
+  field ( readonly )
+   SingletonID;
+
+  field ( readonly : update )
+   Source,
+   Plant;
+
+
+  update( features : global );
+  delete( features : global );
+
+  mapping for ZDTS_HU_PREFIX
+  {
+    Source = SOURCE;
+    Plant = PLANT;
+    Prefix = PREFIX;
+  }
+
+  association _HuPrefixAll { with draft; }
+
+  validation ValidateTransportRequest on save ##NOT_ASSIGNED_TO_DETACT { create; update; delete; }
+}

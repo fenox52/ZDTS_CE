@@ -1,0 +1,18 @@
+unmanaged implementation in class zbp_pp_ci_poconf unique;
+strict ( 2 );
+
+define behavior for ZPP_CI_POCONF alias poconf
+late numbering
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+
+  field ( readonly ) manufacturingorder;
+
+  create;
+  update;
+  delete;
+
+
+}

@@ -1,0 +1,33 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Maintain Pallet Code",
+    "originalLanguage": "en"
+  },
+  "serviceConfiguration": {
+    "serviceBinding": "ZUI_PALLETCODE_O4",
+    "serviceName": "ZUI_PALLETCODE_O4",
+    "serviceVersion": "0001",
+    "rootEntitySet": "PalletCodeAll",
+    "name": "Pallet Code",
+    "configurationGroup": "",
+    "skipRootEntity": true
+  },
+  "appConfiguration": {
+    "listReport": {},
+    "objectPages": [
+      {
+        "entitySet": "PalletCodeAll",
+        "variantManagement": "control"
+      }
+    ],
+    "tableSettings": [
+      {
+        "entitySet": "PalletCode",
+        "tableType": "gridTable",
+        "creationModeName": "creationRow",
+        "rowCountMode": "auto"
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+define service ZUI_HUPREFIX {
+  expose ZC_HUPREFIX_S as HuPrefixAll;
+  expose ZC_HUPREFIX as HuPrefix;
+}

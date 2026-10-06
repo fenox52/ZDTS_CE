@@ -1,0 +1,21 @@
+@Metadata.layer: #CUSTOMER
+@UI: {
+  headerInfo: {
+    typeName: 'PalletCodeAll'
+  }
+}
+annotate view ZC_PalletCode_S with
+{
+  @UI.facet: [ {
+    id: 'ZI_PalletCode', 
+    purpose: #STANDARD, 
+    type: #LINEITEM_REFERENCE, 
+    label: 'Pallet Code', 
+    position: 2 , 
+    targetElement: '_PalletCode'
+  } ]
+  @UI.lineItem: [ {
+    position: 1 
+  } ]
+  SingletonID;
+}

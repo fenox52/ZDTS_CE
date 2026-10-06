@@ -1,0 +1,1389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V11.0.9.20240701.1.52_SAP" APIVersion="3.6.24183.0"?><xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2026-09-08T07:17:57Z" uuid="57b523dd-46ab-41db-b931-5d7243162761">
+<template xmlns:xliff="urn:oasis:names:tc:xliff:document:1.1" xmlns="http://www.xfa.org/schema/xfa-template/3.3/">
+   <?formServer defaultPDFRenderFormat acrobat10.0dynamic?>
+   <subform layout="tb" locale="en_US" name="data" restoreState="auto">
+      <pageSet>
+         <pageArea id="Page1" name="Page1">
+            <contentArea h="152.4mm" w="101.6mm"/>
+            <medium long="152.4mm" short="101.6mm" stock="custom"/>
+            <?templateDesigner expand 1?></pageArea>
+         <?templateDesigner expand 0?></pageSet>
+      <subform h="152.4mm" name="Page1" w="101.6mm">
+         <draw h="5.2331mm" name="Text2" w="25.4mm" x="2.54mm" y="22.225mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text xliff:rid="A0C85B06-EAF1-4576-B9E3-86CB38294598">Material</text>
+            </value>
+            <font size="9pt" typeface="Calibri"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <?renderCache.bounds 69166 12000 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 8 Material 0 1417 8167 0 0 0 "Calibri" 0 0 9000 ISO-8859-1?></draw>
+         <field access="readOnly" h="9mm" id="floatingField024464" name="MATERIAL" presence="hidden" w="62mm" x="0mm" y="0mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <value>
+               <text maxChars="40"/>
+            </value>
+            <bind match="dataRef" ref="$record.IS_PALLET_DTL.MATERIAL"/>
+            <caption>
+               <value>
+                  <text xliff:rid="D50D5BFF-68A4-46EB-8C13-743406E4AA9D">Material</text>
+               </value>
+            </caption>
+            <desc>
+               <text name="Schema Annotation">Material Number</text>
+            </desc>
+         </field>
+         <draw h="5.2331mm" name="Text2" w="68.58mm" x="29.21mm" y="22.225mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p><span xfa:embed="#floatingField024464" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+               </exData>
+            </value>
+            <font size="10.5pt" typeface="Calibri" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+         </draw>
+         <draw h="5.2331mm" name="Text2" w="25.4mm" x="2.54mm" y="28.575mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text xliff:rid="CC39570A-9721-4783-8BAE-ABC0B1131854">Description</text>
+            </value>
+            <font size="9pt" typeface="Calibri"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <?renderCache.bounds 69166 12000 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 11 Description 0 1417 8167 0 0 0 "Calibri" 0 0 9000 ISO-8859-1?></draw>
+         <field access="readOnly" h="9mm" id="floatingField023281" name="MAT_DESC" presence="hidden" w="62mm" x="0mm" y="0mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <value>
+               <text maxChars="40"/>
+            </value>
+            <bind match="dataRef" ref="$record.IS_PALLET_DTL.MAT_DESC"/>
+            <caption>
+               <value>
+                  <text xliff:rid="60E91E76-5F9E-4A09-9704-820FBA8C4209">MAT_DESC</text>
+               </value>
+            </caption>
+            <desc>
+               <text name="Schema Annotation">Material Number description</text>
+            </desc>
+         </field>
+         <draw h="5.232mm" name="Text2" w="68.58mm" x="29.21mm" y="28.575mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p><span xfa:embed="#floatingField023281" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+               </exData>
+            </value>
+            <font size="10.5pt" typeface="Calibri" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+         </draw>
+         <draw h="5.2331mm" name="Text2" w="25.4mm" x="2.54mm" y="34.925mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text xliff:rid="285D34A9-49EF-47F5-A8AB-9FFD0F4AA068">Quantity</text>
+            </value>
+            <font size="9pt" typeface="Calibri"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <?renderCache.bounds 69166 12000 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 8 Quantity 0 1417 8167 0 0 0 "Calibri" 0 0 9000 ISO-8859-1?></draw>
+         <field access="readOnly" h="9mm" id="floatingField000491" name="QTY" presence="hidden" w="62mm" x="0mm" y="0mm">
+            <ui>
+               <numericEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </numericEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <value>
+               <decimal fracDigits="3" leadDigits="10"/>
+            </value>
+            <caption>
+               <value>
+                  <text xliff:rid="7DFCFC9E-6DC7-408E-801B-CFE7F872ADE6">QTY</text>
+               </value>
+            </caption>
+            <desc>
+               <text name="Schema Annotation">Quantity</text>
+            </desc>
+            <validate nullTest="error"/>
+            <bind match="dataRef" ref="$record.IS_PALLET_DTL.QTY"/>
+         </field>
+         <field access="readOnly" h="9mm" id="floatingField002995" name="UOM" presence="hidden" w="62mm" x="0mm" y="0mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <value>
+               <text maxChars="3"/>
+            </value>
+            <bind match="dataRef" ref="$record.IS_PALLET_DTL.UOM"/>
+            <caption>
+               <value>
+                  <text xliff:rid="BD308765-4832-4605-80D0-8115287A66D6">BUn</text>
+               </value>
+            </caption>
+            <desc>
+               <text name="Schema Annotation">Base Unit of Measure</text>
+            </desc>
+         </field>
+         <draw h="5.2331mm" name="Text2" w="68.58mm" x="29.21mm" y="34.925mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="letter-spacing:0in"><span xfa:embed="#floatingField000491" xfa:embedMode="raw" xfa:embedType="uri"/><span style="xfa-spacerun:yes">  </span><span xfa:embed="#floatingField002995" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+               </exData>
+            </value>
+            <font size="10.5pt" typeface="Calibri" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+         </draw>
+         <draw h="5.2331mm" name="Text2" w="25.4mm" x="2.54mm" y="41.275mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text xliff:rid="F83D08D2-7E59-4762-90D7-8F946DCE14E9">Batch Number</text>
+            </value>
+            <font size="9pt" typeface="Calibri"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <?renderCache.bounds 69166 12000 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 12 Batch Number 0 1417 8167 0 0 0 "Calibri" 0 0 9000 ISO-8859-1?></draw>
+         <field access="readOnly" h="9mm" id="floatingField011942" name="BATCH" presence="hidden" w="62mm" x="0mm" y="0mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <value>
+               <text maxChars="10"/>
+            </value>
+            <bind match="dataRef" ref="$record.IS_PALLET_DTL.BATCH"/>
+            <caption>
+               <value>
+                  <text xliff:rid="AB10B9A2-D1B0-45B5-8E57-E7F0B87CE3E7">Batch</text>
+               </value>
+            </caption>
+            <desc>
+               <text name="Schema Annotation">Batch Number</text>
+            </desc>
+         </field>
+         <draw h="5.2331mm" name="Text2" w="68.58mm" x="29.21mm" y="41.275mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p><span xfa:embed="#floatingField011942" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+               </exData>
+            </value>
+            <font size="10.5pt" typeface="Calibri" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+         </draw>
+         <draw h="5.2331mm" name="Text2" w="25.4mm" x="2.54mm" y="47.625mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text xliff:rid="274534C4-C3C3-4329-B2C7-D004372A529E">Process Order</text>
+            </value>
+            <font size="9pt" typeface="Calibri"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <?renderCache.bounds 69166 12000 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 13 Process Order 0 1417 8167 0 0 0 "Calibri" 0 0 9000 ISO-8859-1?></draw>
+         <field access="readOnly" h="9mm" id="floatingField004827" name="PROCESS_ORDER" presence="hidden" w="62mm" x="0mm" y="0mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <value>
+               <text maxChars="12"/>
+            </value>
+            <bind match="dataRef" ref="$record.IS_PALLET_DTL.PROCESS_ORDER"/>
+            <caption>
+               <value>
+                  <text xliff:rid="41F68A8D-0B47-4C8A-8344-352385DC2091">Order</text>
+               </value>
+            </caption>
+            <desc>
+               <text name="Schema Annotation">Order Number</text>
+            </desc>
+         </field>
+         <draw h="5.2331mm" name="Text2" w="68.58mm" x="29.21mm" y="47.625mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p><span xfa:embed="#floatingField004827" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+               </exData>
+            </value>
+            <font size="10.5pt" typeface="Calibri" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+         </draw>
+         <field h="22.551mm" hAlign="center" name="PROCESS_ORDER" w="44.45mm" x="15.24mm" y="56.642mm">
+            <ui>
+               <barcode checksum="auto" dataLength="10" textLocation="none" type="code128" wideNarrowRatio="fixed"/>
+            </ui>
+            <font typeface="Courier New"/>
+            <bind match="dataRef" ref="$record.IS_PALLET_DTL.PROCESS_ORDER"/>
+            <desc>
+               <text name="Schema Annotation">Order Number</text>
+            </desc>
+         </field>
+         <draw h="9.466mm" name="Text1" w="66.675mm" x="9.525mm" y="6.35mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text xliff:rid="74EB3D9E-44FE-42C4-870F-87E67B12E5AF">Pallet ID</text>
+            </value>
+            <font baselineShift="0pt" size="24pt" typeface="Calibri" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+            <?renderCache.bounds 186166 23999 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 9 Pallet ID 0 52617 19417 0 0 0 "Calibri" 1 0 24000 ISO-8859-1?></draw>
+         <draw h="5.2331mm" name="Text2" w="25.4mm" x="2.54mm" y="82.55mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text xliff:rid="D458B8A4-7D0C-4660-8D2E-FE51425137B3">Production Date</text>
+            </value>
+            <font size="9pt" typeface="Calibri"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <?renderCache.bounds 69166 12000 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 15 Production Date 0 1417 8167 0 0 0 "Calibri" 0 0 9000 ISO-8859-1?></draw>
+         <field access="readOnly" h="9mm" id="floatingField005436" name="GV_PROD" presence="hidden" w="62mm" x="0mm" y="0mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <caption>
+               <value>
+                  <text xliff:rid="AE55D869-5204-4E22-91C6-9AD16EE228EC">GV_PROD</text>
+               </value>
+            </caption>
+            <event activity="ready" name="event__layout_ready" ref="$layout">
+               <script contentType="application/x-javascript">this.caption.value.text.value = this.caption.value.text.value.toUpperCase();
+
+</script>
+            </event>
+            <bind match="dataRef" ref="$record.GV_PROD">
+               <picture>date{YYYY-MM-DD}</picture>
+            </bind>
+            <desc>
+               <text name="Schema Annotation">Production Date</text>
+            </desc>
+            <format>
+               <picture>date{DDMMMYYYY}</picture>
+            </format>
+            <validate nullTest="error"/>
+         </field>
+         <draw h="5.2331mm" name="Text2" w="68.58mm" x="29.21mm" y="82.55mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="letter-spacing:0in"><span xfa:embed="#floatingField005436" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+               </exData>
+            </value>
+            <font size="10.5pt" typeface="Calibri" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+         </draw>
+         <draw h="5.2331mm" name="Text2" w="25.4mm" x="2.54mm" y="89.154mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text xliff:rid="50455288-EFD0-4C91-B741-3B53EAE930B0">Expiration Date</text>
+            </value>
+            <font size="9pt" typeface="Calibri"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <?renderCache.bounds 69166 12000 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 15 Expiration Date 0 1417 8167 0 0 0 "Calibri" 0 0 9000 ISO-8859-1?></draw>
+         <field access="readOnly" h="9mm" id="floatingField032391" name="GV_SLED" presence="hidden" w="62mm" x="0mm" y="0mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <caption>
+               <value>
+                  <text xliff:rid="1F883272-F6A6-4C0D-8A5D-4C021A2DDBEB">GV_SLED</text>
+               </value>
+            </caption>
+            <event activity="ready" name="event__layout_ready" ref="$layout">
+               <script contentType="application/x-javascript">
+this.rawValue = this.rawValue.toUpperCase();
+</script>
+            </event>
+            <bind match="dataRef" ref="$record.GV_SLED">
+               <picture>date{YYYY-MM-DD}</picture>
+            </bind>
+            <desc>
+               <text name="Schema Annotation">Expiration Date</text>
+            </desc>
+            <format>
+               <picture>date{DDMMMYYYY}</picture>
+            </format>
+            <validate nullTest="error"/>
+         </field>
+         <draw h="5.2331mm" name="Text2" w="68.58mm" x="29.21mm" y="89.154mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="letter-spacing:0in"><span xfa:embed="#floatingField032391" xfa:embedMode="raw" xfa:embedType="uri"/><span style="xfa-spacerun:yes">   </span><span xfa:embed="#floatingField014604" xfa:embedMode="raw" xfa:embedType="uri"/><span style="xfa-spacerun:yes">    </span><span xfa:embed="#floatingField003902" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+               </exData>
+            </value>
+            <font size="10.5pt" typeface="Calibri" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+         </draw>
+         <field access="readOnly" h="9mm" id="floatingField014604" name="PROD_LINE" presence="hidden" w="62mm" x="0mm" y="0mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <value>
+               <text maxChars="10"/>
+            </value>
+            <bind match="dataRef" ref="$record.IS_PALLET_DTL.PROD_LINE"/>
+            <caption>
+               <value>
+                  <text xliff:rid="B84C08E8-8575-4886-8FB2-8E6865C40A72">PROD_LINE</text>
+               </value>
+            </caption>
+            <desc>
+               <text name="Schema Annotation">Line Number</text>
+            </desc>
+         </field>
+         <field access="readOnly" h="9mm" id="floatingField003902" name="SHIFT" presence="hidden" w="62mm" x="0mm" y="0mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <value>
+               <text maxChars="1"/>
+            </value>
+            <bind match="dataRef" ref="$record.IS_PALLET_DTL.SHIFT"/>
+            <caption>
+               <value>
+                  <text xliff:rid="1E6B24AA-8B50-4F16-BDEC-EDB9E135713F">SHIFT</text>
+               </value>
+            </caption>
+            <desc>
+               <text name="Schema Annotation">Shift</text>
+            </desc>
+         </field>
+         <draw h="5.2331mm" name="Text2" w="25.4mm" x="2.54mm" y="97.155mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text xliff:rid="ED1D7CBE-60C5-4352-BBC1-3B53EC018972">SU Number</text>
+            </value>
+            <font baselineShift="0pt" size="9pt" typeface="Calibri"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+            <?renderCache.bounds 69166 12000 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 9 SU Number 0 1417 8167 0 0 0 "Calibri" 0 0 9000 ISO-8859-1?></draw>
+         <field access="readOnly" h="9mm" id="floatingField000153" name="GV_SUNO" presence="hidden" w="62mm" x="0mm" y="0mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <value>
+               <text maxChars="20"/>
+            </value>
+            <bind match="dataRef" ref="$record.GV_SUNO"/>
+            <caption>
+               <value>
+                  <text xliff:rid="3E89291E-85AD-4EB8-8E72-D39C5BB42BD1">Char20</text>
+               </value>
+            </caption>
+            <desc>
+               <text name="Schema Annotation">Char 20</text>
+            </desc>
+         </field>
+         <draw h="5.2331mm" name="Text2" w="68.58mm" x="29.21mm" y="97.155mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p><span xfa:embed="#floatingField000153" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+               </exData>
+            </value>
+            <font size="10.5pt" typeface="Calibri" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+         </draw>
+         <field h="22.551mm" hAlign="center" name="SU_NO" w="44.45mm" x="7.62mm" y="104.775mm">
+            <ui>
+               <barcode checksum="auto" dataLength="10" textLocation="none" type="code128" wideNarrowRatio="fixed"/>
+            </ui>
+            <font typeface="Courier New"/>
+            <bind match="dataRef" ref="$record.IS_PALLET_DTL.SU_NO"/>
+            <desc>
+               <text name="Schema Annotation">Order Number</text>
+            </desc>
+         </field>
+         <field access="readOnly" h="9mm" id="floatingField000292" name="DATETIME" presence="hidden" w="62mm" x="0mm" y="0mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <caption>
+               <value>
+                  <text xliff:rid="54748CE4-039F-402B-9788-D723487DCE46">Time Stamp</text>
+               </value>
+            </caption>
+            <bind match="dataRef" ref="$record.IS_PALLET_DTL.DATETIME"/>
+            <desc>
+               <text name="Schema Annotation">UTC Time Stamp in Short Form (YYYYMMDDhhmmss)</text>
+            </desc>
+            <validate nullTest="error"/>
+         </field>
+         <draw h="5.2331mm" name="Text2" w="20.32mm" x="7.62mm" y="128.905mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="letter-spacing:0in"><span xfa:embed="#floatingField000292" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+               </exData>
+            </value>
+            <font baselineShift="0pt" size="7pt" typeface="Calibri" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+         </draw>
+         <field access="readOnly" h="9mm" id="floatingField012382" name="USER" presence="hidden" w="62mm" x="0mm" y="0mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <value>
+               <text maxChars="12"/>
+            </value>
+            <bind match="dataRef" ref="$record.IS_PALLET_DTL.USER"/>
+            <caption>
+               <value>
+                  <text xliff:rid="5F044FF6-0F77-4B4D-BDD6-9E780612ADE1">User Name</text>
+               </value>
+            </caption>
+            <desc>
+               <text name="Schema Annotation">User Name</text>
+            </desc>
+         </field>
+         <draw h="5.2331mm" name="Text2" w="15.875mm" x="66.04mm" y="128.905mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html" xliff:rid="E16092F0-C41D-4086-B993-1CF8542B2DC0">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="letter-spacing:0in">User<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField012382" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+               </exData>
+            </value>
+            <font baselineShift="0pt" size="7pt" typeface="Calibri" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+         </draw>
+         <?templateDesigner expand 0?></subform>
+      <subform h="152.4mm" name="Page2" w="101.6mm">
+         <draw h="5.2331mm" name="Text2" w="25.4mm" x="2.54mm" y="22.225mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text xliff:rid="4AC93BCB-78FE-46FE-B463-9291B8BB89C7">Material</text>
+            </value>
+            <font size="9pt" typeface="Calibri"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <?renderCache.bounds 69166 12000 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 8 Material 0 1417 8167 0 0 0 "Calibri" 0 0 9000 ISO-8859-1?></draw>
+         <field access="readOnly" h="9mm" id="floatingField017421" name="MATERIAL" presence="hidden" w="62mm" x="0mm" y="0mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <value>
+               <text maxChars="40"/>
+            </value>
+            <bind match="dataRef" ref="$record.IS_PALLET_DTL.MATERIAL"/>
+            <caption>
+               <value>
+                  <text xliff:rid="273CB847-5B04-4017-8450-DE690CAC656E">Material</text>
+               </value>
+            </caption>
+            <desc>
+               <text name="Schema Annotation">Material Number</text>
+            </desc>
+         </field>
+         <draw h="5.2331mm" name="Text2" w="68.58mm" x="29.21mm" y="22.225mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p><span xfa:embed="#floatingField017421" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+               </exData>
+            </value>
+            <font size="10.5pt" typeface="Calibri" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+         </draw>
+         <draw h="5.2331mm" name="Text2" w="25.4mm" x="2.54mm" y="28.575mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text xliff:rid="E02F4E1F-B568-47DE-83CA-E800380AED30">Description</text>
+            </value>
+            <font size="9pt" typeface="Calibri"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <?renderCache.bounds 69166 12000 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 11 Description 0 1417 8167 0 0 0 "Calibri" 0 0 9000 ISO-8859-1?></draw>
+         <field access="readOnly" h="9mm" id="floatingField018716" name="MAT_DESC" presence="hidden" w="62mm" x="0mm" y="0mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <value>
+               <text maxChars="40"/>
+            </value>
+            <bind match="dataRef" ref="$record.IS_PALLET_DTL.MAT_DESC"/>
+            <caption>
+               <value>
+                  <text xliff:rid="4E249330-5C07-496A-BF23-9ECF974D3147">MAT_DESC</text>
+               </value>
+            </caption>
+            <desc>
+               <text name="Schema Annotation">Material Number description</text>
+            </desc>
+         </field>
+         <draw h="5.232mm" name="Text2" w="68.58mm" x="29.21mm" y="28.575mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p><span xfa:embed="#floatingField018716" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+               </exData>
+            </value>
+            <font size="10.5pt" typeface="Calibri" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+         </draw>
+         <draw h="5.2331mm" name="Text2" w="25.4mm" x="2.54mm" y="34.925mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text xliff:rid="E7046111-71DF-4C9E-988D-8A34A42002DF">Quantity</text>
+            </value>
+            <font size="9pt" typeface="Calibri"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <?renderCache.bounds 69166 12000 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 8 Quantity 0 1417 8167 0 0 0 "Calibri" 0 0 9000 ISO-8859-1?></draw>
+         <field access="readOnly" h="9mm" id="floatingField019718" name="QTY" presence="hidden" w="62mm" x="0mm" y="0mm">
+            <ui>
+               <numericEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </numericEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <value>
+               <decimal fracDigits="3" leadDigits="10"/>
+            </value>
+            <caption>
+               <value>
+                  <text xliff:rid="50E0A9DB-1BBC-4200-BECC-AA97C3901289">QTY</text>
+               </value>
+            </caption>
+            <desc>
+               <text name="Schema Annotation">Quantity</text>
+            </desc>
+            <validate nullTest="error"/>
+            <bind match="dataRef" ref="$record.IS_PALLET_DTL.QTY"/>
+         </field>
+         <field access="readOnly" h="9mm" id="floatingField019895" name="UOM" presence="hidden" w="62mm" x="0mm" y="0mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <value>
+               <text maxChars="3"/>
+            </value>
+            <bind match="dataRef" ref="$record.IS_PALLET_DTL.UOM"/>
+            <caption>
+               <value>
+                  <text xliff:rid="FDB1BF82-DB19-45E9-8E4C-F64D2826CA7C">BUn</text>
+               </value>
+            </caption>
+            <desc>
+               <text name="Schema Annotation">Base Unit of Measure</text>
+            </desc>
+         </field>
+         <draw h="5.2331mm" name="Text2" w="68.58mm" x="29.21mm" y="34.925mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="letter-spacing:0in"><span xfa:embed="#floatingField019718" xfa:embedMode="raw" xfa:embedType="uri"/><span style="xfa-spacerun:yes">  </span><span xfa:embed="#floatingField019895" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+               </exData>
+            </value>
+            <font size="10.5pt" typeface="Calibri" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+         </draw>
+         <draw h="5.2331mm" name="Text2" w="25.4mm" x="2.54mm" y="41.275mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text xliff:rid="1E7878DF-235A-46C1-8DEA-C568BC1396F0">Batch Number</text>
+            </value>
+            <font size="9pt" typeface="Calibri"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <?renderCache.bounds 69166 12000 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 12 Batch Number 0 1417 8167 0 0 0 "Calibri" 0 0 9000 ISO-8859-1?></draw>
+         <field access="readOnly" h="9mm" id="floatingField005447" name="BATCH" presence="hidden" w="62mm" x="0mm" y="0mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <value>
+               <text maxChars="10"/>
+            </value>
+            <bind match="dataRef" ref="$record.IS_PALLET_DTL.BATCH"/>
+            <caption>
+               <value>
+                  <text xliff:rid="FAB2E43A-1C9F-4E21-95DD-303BB23381F2">Batch</text>
+               </value>
+            </caption>
+            <desc>
+               <text name="Schema Annotation">Batch Number</text>
+            </desc>
+         </field>
+         <draw h="5.2331mm" name="Text2" w="68.58mm" x="29.21mm" y="41.275mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p><span xfa:embed="#floatingField005447" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+               </exData>
+            </value>
+            <font size="10.5pt" typeface="Calibri" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+         </draw>
+         <draw h="5.2331mm" name="Text2" w="25.4mm" x="2.54mm" y="47.625mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text xliff:rid="F5C8DB32-E6D9-4697-A0B6-74FC5B31C634">Process Order</text>
+            </value>
+            <font size="9pt" typeface="Calibri"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <?renderCache.bounds 69166 12000 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 13 Process Order 0 1417 8167 0 0 0 "Calibri" 0 0 9000 ISO-8859-1?></draw>
+         <field access="readOnly" h="9mm" id="floatingField021726" name="PROCESS_ORDER" presence="hidden" w="62mm" x="0mm" y="0mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <value>
+               <text maxChars="12"/>
+            </value>
+            <bind match="dataRef" ref="$record.IS_PALLET_DTL.PROCESS_ORDER"/>
+            <caption>
+               <value>
+                  <text xliff:rid="2336E324-A431-403E-BB42-CBAF8970B697">Order</text>
+               </value>
+            </caption>
+            <desc>
+               <text name="Schema Annotation">Order Number</text>
+            </desc>
+         </field>
+         <draw h="5.2331mm" name="Text2" w="68.58mm" x="29.21mm" y="47.625mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p><span xfa:embed="#floatingField021726" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+               </exData>
+            </value>
+            <font size="10.5pt" typeface="Calibri" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+         </draw>
+         <field h="22.551mm" hAlign="center" name="PROCESS_ORDER" w="44.45mm" x="15.24mm" y="56.642mm">
+            <ui>
+               <barcode checksum="auto" dataLength="10" textLocation="none" type="code128" wideNarrowRatio="fixed"/>
+            </ui>
+            <font typeface="Courier New"/>
+            <bind match="dataRef" ref="$record.IS_PALLET_DTL.PROCESS_ORDER"/>
+            <desc>
+               <text name="Schema Annotation">Order Number</text>
+            </desc>
+         </field>
+         <draw h="9.466mm" name="Text1" w="66.675mm" x="9.525mm" y="6.35mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text xliff:rid="B114E948-5747-4D94-80F9-5F076D4C5ED0">Pallet ID</text>
+            </value>
+            <font baselineShift="0pt" size="24pt" typeface="Calibri" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+            <?renderCache.bounds 186166 23999 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 9 Pallet ID 0 52617 19417 0 0 0 "Calibri" 1 0 24000 ISO-8859-1?></draw>
+         <draw h="5.2331mm" name="Text2" w="25.4mm" x="2.54mm" y="82.55mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text xliff:rid="3F77EFB4-3820-44E3-9139-C43A71EDA7EA">Production Date</text>
+            </value>
+            <font size="9pt" typeface="Calibri"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <?renderCache.bounds 69166 12000 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 15 Production Date 0 1417 8167 0 0 0 "Calibri" 0 0 9000 ISO-8859-1?></draw>
+         <field access="readOnly" h="9mm" id="floatingField014771" name="PROD_DATE" presence="hidden" w="62mm" x="0mm" y="0mm">
+            <ui>
+               <dateTimeEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </dateTimeEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <value>
+               <date/>
+            </value>
+            <caption>
+               <value>
+                  <text xliff:rid="BFF2FC5D-3177-44CE-9055-CF7FE2EFF332">PROD_DATE</text>
+               </value>
+            </caption>
+            <desc>
+               <text name="Schema Annotation">Production Date</text>
+            </desc>
+            <validate nullTest="error"/>
+            <bind match="dataRef" ref="$record.IS_PALLET_DTL.PROD_DATE">
+               <picture>date{YYYY-MM-DD}</picture>
+            </bind>
+            <format>
+               <picture>date{DDMMMYYYY}</picture>
+            </format>
+         </field>
+         <draw h="5.2331mm" name="Text2" w="68.58mm" x="29.21mm" y="82.55mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="letter-spacing:0in"><span xfa:embed="#floatingField014771" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+               </exData>
+            </value>
+            <font size="10.5pt" typeface="Calibri" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+         </draw>
+         <draw h="5.2331mm" name="Text2" w="25.4mm" x="2.54mm" y="89.154mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text xliff:rid="B5579D18-26C3-43FC-ADF9-BC1078135F3F">Expiration Date</text>
+            </value>
+            <font size="9pt" typeface="Calibri"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <?renderCache.bounds 69166 12000 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 15 Expiration Date 0 1417 8167 0 0 0 "Calibri" 0 0 9000 ISO-8859-1?></draw>
+         <field access="readOnly" h="9mm" id="floatingField011538" name="EXP_DATE" presence="hidden" w="62mm" x="0mm" y="0mm">
+            <ui>
+               <dateTimeEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </dateTimeEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <value>
+               <date/>
+            </value>
+            <caption>
+               <value>
+                  <text xliff:rid="8794EF97-8BF3-42BE-B4B2-7F491E6649D2">EXP_DATE</text>
+               </value>
+            </caption>
+            <desc>
+               <text name="Schema Annotation">Expiration Date</text>
+            </desc>
+            <validate nullTest="error"/>
+            <bind match="dataRef" ref="$record.IS_PALLET_DTL.EXP_DATE">
+               <picture>date{YYYY-MM-DD}</picture>
+            </bind>
+            <format>
+               <picture>date{DDMMMYYYY}</picture>
+            </format>
+         </field>
+         <draw h="5.2331mm" name="Text2" w="68.58mm" x="29.21mm" y="89.154mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="letter-spacing:0in"><span xfa:embed="#floatingField011538" xfa:embedMode="raw" xfa:embedType="uri"/><span style="xfa-spacerun:yes">   </span><span xfa:embed="#floatingField001869" xfa:embedMode="raw" xfa:embedType="uri"/><span style="xfa-spacerun:yes">    </span><span xfa:embed="#floatingField019912" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+               </exData>
+            </value>
+            <font size="10.5pt" typeface="Calibri" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+         </draw>
+         <field access="readOnly" h="9mm" id="floatingField001869" name="PROD_LINE" presence="hidden" w="62mm" x="0mm" y="0mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <value>
+               <text maxChars="10"/>
+            </value>
+            <bind match="dataRef" ref="$record.IS_PALLET_DTL.PROD_LINE"/>
+            <caption>
+               <value>
+                  <text xliff:rid="1BA99F17-CD69-4F19-882C-FCFD030501A0">PROD_LINE</text>
+               </value>
+            </caption>
+            <desc>
+               <text name="Schema Annotation">Line Number</text>
+            </desc>
+         </field>
+         <field access="readOnly" h="9mm" id="floatingField019912" name="SHIFT" presence="hidden" w="62mm" x="0mm" y="0mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <value>
+               <text maxChars="1"/>
+            </value>
+            <bind match="dataRef" ref="$record.IS_PALLET_DTL.SHIFT"/>
+            <caption>
+               <value>
+                  <text xliff:rid="EC715433-4DC7-437E-989F-C45D4065F9A4">SHIFT</text>
+               </value>
+            </caption>
+            <desc>
+               <text name="Schema Annotation">Shift</text>
+            </desc>
+         </field>
+         <draw h="5.2331mm" name="Text2" w="25.4mm" x="2.54mm" y="97.155mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text xliff:rid="D785303B-7B64-48F3-A720-4C4B6ED9ED0F">SU Number</text>
+            </value>
+            <font baselineShift="0pt" size="9pt" typeface="Calibri"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+            <?renderCache.bounds 69166 12000 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 9 SU Number 0 1417 8167 0 0 0 "Calibri" 0 0 9000 ISO-8859-1?></draw>
+         <field access="readOnly" h="9mm" id="floatingField025667" name="GV_SUNO" presence="hidden" w="62mm" x="0mm" y="0mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <value>
+               <text maxChars="20"/>
+            </value>
+            <bind match="dataRef" ref="$record.GV_SUNO"/>
+            <caption>
+               <value>
+                  <text xliff:rid="0DF52DA2-FC03-4BF0-8AB9-5644403E7148">Char20</text>
+               </value>
+            </caption>
+            <desc>
+               <text name="Schema Annotation">Char 20</text>
+            </desc>
+         </field>
+         <draw h="5.2331mm" name="Text2" w="68.58mm" x="29.21mm" y="97.155mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p><span xfa:embed="#floatingField025667" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+               </exData>
+            </value>
+            <font size="10.5pt" typeface="Calibri" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+         </draw>
+         <field h="22.551mm" hAlign="center" name="SU_NO" w="44.45mm" x="7.62mm" y="104.775mm">
+            <ui>
+               <barcode checksum="auto" dataLength="10" textLocation="none" type="code128" wideNarrowRatio="fixed"/>
+            </ui>
+            <font typeface="Courier New"/>
+            <bind match="dataRef" ref="$record.IS_PALLET_DTL.SU_NO"/>
+            <desc>
+               <text name="Schema Annotation">Order Number</text>
+            </desc>
+         </field>
+         <field access="readOnly" h="9mm" id="floatingField026299" name="DATETIME" presence="hidden" w="62mm" x="0mm" y="0mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <caption>
+               <value>
+                  <text xliff:rid="55EB3842-BD76-4EEA-91FF-8AA95889454C">Time Stamp</text>
+               </value>
+            </caption>
+            <bind match="dataRef" ref="$record.IS_PALLET_DTL.DATETIME"/>
+            <desc>
+               <text name="Schema Annotation">UTC Time Stamp in Short Form (YYYYMMDDhhmmss)</text>
+            </desc>
+            <validate nullTest="error"/>
+         </field>
+         <draw h="5.2331mm" name="Text2" w="20.32mm" x="7.62mm" y="128.905mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="letter-spacing:0in"><span xfa:embed="#floatingField026299" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+               </exData>
+            </value>
+            <font baselineShift="0pt" size="7pt" typeface="Calibri" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+         </draw>
+         <field access="readOnly" h="9mm" id="floatingField017035" name="USER" presence="hidden" w="62mm" x="0mm" y="0mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <value>
+               <text maxChars="12"/>
+            </value>
+            <bind match="dataRef" ref="$record.IS_PALLET_DTL.USER"/>
+            <caption>
+               <value>
+                  <text xliff:rid="97D127D8-2F4A-455C-90A2-CBDBB8E8014D">User Name</text>
+               </value>
+            </caption>
+            <desc>
+               <text name="Schema Annotation">User Name</text>
+            </desc>
+         </field>
+         <draw h="5.2331mm" name="Text2" w="15.875mm" x="66.04mm" y="128.905mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html" xliff:rid="4B083DD7-5417-4E13-A1A1-FD6079ECD623">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="letter-spacing:0in">User<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField017035" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+               </exData>
+            </value>
+            <font baselineShift="0pt" size="7pt" typeface="Calibri" weight="bold"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+         </draw>
+         <?templateDesigner expand 0?></subform>
+      <proto/>
+      <desc>
+         <text name="version">11.0.9.20240701.1.52.2</text>
+      </desc>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Arial" 0 0 ISO-8859-1 4 156 39 000300130015002400250026002700280029002A002B002C002F0030003100320033003400350036003700380039003B003C00420044004600470048004B004C004F005000510053005500560057 02ABCDEFGHILMNOPQRSTUVXY_acdehilmnprst?>
+      <?renderCache.subset "Calibri" 0 0 ISO-8859-1 4 116 29 000300110018001C00440045004B00570059005E00680102010F0110011A011E015A015D016F01750176017D0189018C0190019A01B501C601C7 BDEMNOPQSUabcdehilmnoprstuxy?>
+      <?renderCache.subset "Calibri" 1 0 ISO-8859-1 4 128 32 00030004001100120018001C00260027002C002F003E00440045004B00570059005A005E0064006800730079007A0102011E016F018C0190019A037A03820383 ABCDEFGHILMNOPQRSTUVXYaelrst_{}?></subform>
+   <?templateDesigner DefaultPreviewDynamic 1?>
+   <?templateDesigner DefaultRunAt client?>
+   <?templateDesigner Grid show:1, snap:1, units:0, color:ff8080, origin:(0,0), interval:(125000,125000)?>
+   <?templateDesigner WidowOrphanControl 0?>
+   <?templateDesigner DefaultCaptionFontSettings face:Arial;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultValueFontSettings face:Arial;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultLanguage JavaScript?>
+   <?acrobat JavaScript strictScoping?>
+   <?templateDesigner SaveTaggedPDF 1?>
+   <?templateDesigner SavePDFWithEmbeddedFonts 1?>
+   <?templateDesigner FormTargetVersion 33?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
+   <?templateDesigner Zoom 209?></template>
+<config xmlns="http://www.xfa.org/schema/xci/3.0/">
+   <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+      <common>
+         <template>
+            <base>https://vhnaos4dci.sap.int.nutriasia.com.ph:44300/sap/bc/fp/form/layout/</base>
+         </template>
+      </common>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <pdf>
+         <!--  [0..n]  -->
+         <version>1.7</version>
+         <adobeExtensionLevel>8</adobeExtensionLevel>
+      </pdf>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+         </data>
+      </common>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+   <psMap>
+      <font posture="normal" psName="Calibri-Bold" typeface="Calibri" weight="bold"/>
+      <font posture="normal" psName="Calibri" typeface="Calibri" weight="normal"/>
+   </psMap>
+</config>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.8/">
+   <xsdConnection dataDescription="data" name="ZF_PP_PALLET_ID">
+      <uri/>
+      <rootElement>data</rootElement>
+   </xsdConnection>
+</connectionSet>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="data">
+      <data>
+         <IS_PALLET_DTL>
+            <MATERIAL/>
+            <MAT_DESC/>
+            <QTY/>
+            <UOM/>
+            <BATCH/>
+            <PROCESS_ORDER/>
+            <PROD_DATE/>
+            <EXP_DATE/>
+            <PROD_LINE/>
+            <SHIFT/>
+            <SU_NO/>
+            <DATETIME/>
+            <USER/>
+         </IS_PALLET_DTL>
+         <GV_SUNO/>
+         <GV_PROD/>
+         <GV_SLED/>
+      </data>
+   </dd:dataDescription>
+</xfa:datasets>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+   <locale desc="English (United States)" name="en_US">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>January</month>
+            <month>February</month>
+            <month>March</month>
+            <month>April</month>
+            <month>May</month>
+            <month>June</month>
+            <month>July</month>
+            <month>August</month>
+            <month>September</month>
+            <month>October</month>
+            <month>November</month>
+            <month>December</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mar</month>
+            <month>Apr</month>
+            <month>May</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Oct</month>
+            <month>Nov</month>
+            <month>Dec</month>
+         </monthNames>
+         <dayNames>
+            <day>Sunday</day>
+            <day>Monday</day>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>
+            <day>Saturday</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>Sun</day>
+            <day>Mon</day>
+            <day>Tue</day>
+            <day>Wed</day>
+            <day>Thu</day>
+            <day>Fri</day>
+            <day>Sat</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>BC</era>
+            <era>AD</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE, MMMM D, YYYY</datePattern>
+         <datePattern name="long">MMMM D, YYYY</datePattern>
+         <datePattern name="med">MMM D, YYYY</datePattern>
+         <datePattern name="short">M/D/YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">h:MM:SS A Z</timePattern>
+         <timePattern name="long">h:MM:SS A Z</timePattern>
+         <timePattern name="med">h:MM:SS A</timePattern>
+         <timePattern name="short">h:MM A</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$z,zz9.99|($z,zz9.99)</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">$</currencySymbol>
+         <currencySymbol name="isoname">USD</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+      <typefaces>
+         <typeface name="Myriad Pro"/>
+         <typeface name="Minion Pro"/>
+         <typeface name="Courier Std"/>
+         <typeface name="Adobe Pi Std"/>
+         <typeface name="Adobe Hebrew"/>
+         <typeface name="Adobe Arabic"/>
+         <typeface name="Adobe Thai"/>
+         <typeface name="Kozuka Gothic Pro-VI M"/>
+         <typeface name="Kozuka Mincho Pro-VI R"/>
+         <typeface name="Adobe Ming Std L"/>
+         <typeface name="Adobe Song Std L"/>
+         <typeface name="Adobe Myungjo Std M"/>
+         <typeface name="Adobe Devanagari"/>
+      </typefaces>
+   </locale>
+</localeSet>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.0-c000 79.cca54b0, 2022/11/26-09:29:55        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:pdfuaid="http://www.aiim.org/pdfua/ns/id/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
+         <xmp:MetadataDate>2026-09-08T07:17:57Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe LiveCycle Designer 11.0</xmp:CreatorTool>
+         <pdfuaid:part>1</pdfuaid:part>
+         <pdf:Producer>Adobe LiveCycle Designer 11.0</pdf:Producer>
+         <xmpMM:DocumentID>uuid:57b523dd-46ab-41db-b931-5d7243162761</xmpMM:DocumentID>
+         <desc:version rdf:parseType="Resource">
+            <rdf:value>11.0.9.20240701.1.52.2</rdf:value>
+            <desc:ref>/template/subform[1]</desc:ref>
+         </desc:version>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta></xdp:xdp>

@@ -1,0 +1,25 @@
+projection;
+strict;
+use draft;
+
+define behavior for ZC_HuPrefix_S alias HuPrefixAll
+
+{
+  use action Edit;
+  use action Activate;
+  use action Discard;
+  use action Resume;
+  use action Prepare;
+  use action SelectCustomizingTransptReq;
+
+  use association _HuPrefix { create; with draft; }
+}
+
+define behavior for ZC_HuPrefix alias HuPrefix
+
+{
+  use update;
+  use delete;
+
+  use association _HuPrefixAll { with draft; }
+}

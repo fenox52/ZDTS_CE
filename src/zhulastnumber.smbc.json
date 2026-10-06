@@ -1,0 +1,33 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Maintain HU Last Number",
+    "originalLanguage": "en"
+  },
+  "serviceConfiguration": {
+    "serviceBinding": "ZUI_HULASTNUMBER_O4",
+    "serviceName": "ZUI_HULASTNUMBER_O4",
+    "serviceVersion": "0001",
+    "rootEntitySet": "HuLastNumberAll",
+    "name": "HU Last Number",
+    "configurationGroup": "",
+    "skipRootEntity": true
+  },
+  "appConfiguration": {
+    "listReport": {},
+    "objectPages": [
+      {
+        "entitySet": "HuLastNumberAll",
+        "variantManagement": "control"
+      }
+    ],
+    "tableSettings": [
+      {
+        "entitySet": "HuLastNumber",
+        "tableType": "gridTable",
+        "creationModeName": "creationRow",
+        "rowCountMode": "auto"
+      }
+    ]
+  }
+}

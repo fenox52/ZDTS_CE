@@ -1,0 +1,5 @@
+CLASS zbp_i_ve_palletcode DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zi_ve_palletcode.
+ENDCLASS.
+
+CLASS zbp_i_ve_palletcode IMPLEMENTATION.
+ENDCLASS.

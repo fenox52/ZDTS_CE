@@ -1,0 +1,45 @@
+@Metadata.layer: #CUSTOMER
+@UI: {
+  headerInfo: {
+    typeName: 'HuPrefix', 
+    typeNamePlural: 'HuPrefixs', 
+    title: {
+      type: #STANDARD, 
+      label: 'HU Prefix', 
+      value: 'Source'
+    }
+  }
+}
+annotate view ZC_HuPrefix with
+{
+  @UI.identification: [ {
+    position: 1 
+  } ]
+  @UI.lineItem: [ {
+    position: 1 
+  } ]
+  @UI.facet: [ {
+    id: 'ZI_HuPrefix', 
+    purpose: #STANDARD, 
+    type: #IDENTIFICATION_REFERENCE, 
+    label: 'HU Prefix', 
+    position: 1 
+  } ]
+  Source;
+  
+  @UI.identification: [ {
+    position: 2 
+  } ]
+  @UI.lineItem: [ {
+    position: 2 
+  } ]
+  Plant;
+  
+  @UI.identification: [ {
+    position: 3 
+  } ]
+  @UI.lineItem: [ {
+    position: 3 
+  } ]
+  Prefix;
+}

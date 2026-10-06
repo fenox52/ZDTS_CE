@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SUSH" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <HEAD>
+    <NAME>ZFM_PROCORD_CONF_WRAP</NAME>
+    <TYPE>RF</TYPE>
+    <DISPLAY_NAME>ZFM_PROCORD_CONF_WRAP</DISPLAY_NAME>
+    <STEXT>Process Order Confirmation Wrapper</STEXT>
+   </HEAD>
+  </asx:values>
+ </asx:abap>
+</abapGit>

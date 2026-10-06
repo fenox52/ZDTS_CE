@@ -1,0 +1,69 @@
+@Metadata.layer: #CUSTOMER
+@UI: {
+  headerInfo: {
+    typeName: 'PalletCode', 
+    typeNamePlural: 'PalletCodes', 
+    title: {
+      type: #STANDARD, 
+      label: 'Pallet Code', 
+      value: 'PalletCode'
+    }
+  }
+}
+annotate view ZC_PalletCode with
+{
+  @UI.identification: [ {
+    position: 1 
+  } ]
+  @UI.lineItem: [ {
+    position: 1 
+  } ]
+  @UI.facet: [ {
+    id: 'ZI_PalletCode', 
+    purpose: #STANDARD, 
+    type: #IDENTIFICATION_REFERENCE, 
+    label: 'Pallet Code', 
+    position: 1 
+  } ]
+  PalletCode;
+  
+  @UI.identification: [ {
+    position: 2 
+  } ]
+  @UI.lineItem: [ {
+    position: 2 
+  } ]
+  PalletBrand;
+  
+  @UI.identification: [ {
+    position: 3 
+  } ]
+  @UI.lineItem: [ {
+    position: 3 
+  } ]
+  PalletType;
+  
+  @UI.identification: [ {
+    position: 4 
+  } ]
+  @UI.lineItem: [ {
+    position: 4 
+  } ]
+  PalletCodeDesc;
+  
+  @UI.identification: [ {
+    position: 5 , label: 'Active'
+  } ]
+  @UI.lineItem: [ {
+    position: 5, label: 'Active'
+  } ]
+  Active;
+  
+  @UI.identification: [ {
+    position: 6, label: 'Default'
+  } ]
+  @UI.lineItem: [ {
+    position: 6 , label: 'Default'
+  } ]
+  PalletDefault;
+}

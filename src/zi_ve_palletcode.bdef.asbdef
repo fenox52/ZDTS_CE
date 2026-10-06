@@ -1,0 +1,14 @@
+managed implementation in class zbp_i_ve_palletcode unique;
+strict ( 2 );
+
+define behavior for ZI_VE_PALLETCODE //alias <alias_name>
+persistent table zdts_palletcode
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  field ( readonly ) PalletCode;
+  field ( readonly ) PalletBrand;
+  field ( readonly ) PalletCodeDesc;
+
+}

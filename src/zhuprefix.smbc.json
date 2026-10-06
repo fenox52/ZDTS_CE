@@ -1,0 +1,33 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Maintain HU Prefix",
+    "originalLanguage": "en"
+  },
+  "serviceConfiguration": {
+    "serviceBinding": "ZUI_HUPREFIX_O4",
+    "serviceName": "ZUI_HUPREFIX_O4",
+    "serviceVersion": "0001",
+    "rootEntitySet": "HuPrefixAll",
+    "name": "HU Prefix",
+    "configurationGroup": "",
+    "skipRootEntity": true
+  },
+  "appConfiguration": {
+    "listReport": {},
+    "objectPages": [
+      {
+        "entitySet": "HuPrefixAll",
+        "variantManagement": "control"
+      }
+    ],
+    "tableSettings": [
+      {
+        "entitySet": "HuPrefix",
+        "tableType": "gridTable",
+        "creationModeName": "creationRow",
+        "rowCountMode": "auto"
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+managed with additional save implementation in class ZBP_I_PALLETCODE_S unique;
+strict;
+with draft;
+
+define behavior for ZI_PalletCode_S alias PalletCodeAll
+draft table ZDTS_PALLETC_D_S
+with unmanaged save
+lock master total etag LastChangedAtMax
+authorization master( global )
+
+{
+  field ( readonly )
+   SingletonID;
+
+
+  update;
+  internal create;
+  internal delete;
+
+  draft action ( features : instance ) Edit;
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Resume;
+  draft determine action Prepare;
+
+  association _PalletCode { create ( features : instance ); with draft; }
+}
+
+define behavior for ZI_PalletCode alias PalletCode
+persistent table ZDTS_PALLETCODE
+draft table ZDTS_PALLETCOD_D
+lock dependent by _PalletCodeAll
+authorization dependent by _PalletCodeAll
+
+{
+  field ( mandatory : create )
+   PalletCode,
+   PalletBrand;
+
+  field ( readonly )
+   SingletonID;
+
+  field ( readonly : update )
+   PalletCode,
+   PalletBrand;
+
+
+  update( features : global );
+  delete( features : global );
+
+  mapping for ZDTS_PALLETCODE
+  {
+    PalletCode = PALLET_CODE;
+    PalletBrand = PALLET_BRAND;
+    PalletType = PALLET_TYPE;
+    PalletCodeDesc = PALLET_CODE_DESC;
+    Active = ACTIVE;
+    PalletDefault = PALLET_DEFAULT;
+  }
+
+  association _PalletCodeAll { with draft; }
+}

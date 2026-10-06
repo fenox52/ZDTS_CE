@@ -1,0 +1,6 @@
+@EndUserText.label: 'Process Order Confirm'
+define service ZSD_PROCORD_UI {
+  expose ZPP_CI_POGDTL    as ProcOrdGetDtl;
+  expose ZPP_CI_POCONF    as ProcOrdConfirm;
+  expose ZI_VE_PALLETCODE as PalletCode;
+}

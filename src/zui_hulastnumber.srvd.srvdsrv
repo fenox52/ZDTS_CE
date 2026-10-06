@@ -1,0 +1,4 @@
+define service ZUI_HULASTNUMBER {
+  expose ZC_HULASTNUMBER_S as HuLastNumberAll;
+  expose ZC_HULASTNUMBER as HuLastNumber;
+}

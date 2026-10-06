@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>FG Process Order Confirmation</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZFG_PROC_ORDER_CONFF01</SOBJ_NAME>
+    <SOBJ_NAME>LZFG_PROC_ORDER_CONFTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFG_PROC_ORDER_CONF</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZFM_PROCORD_CONF_WRAP</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Process Order Confirmation Wrapper</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>MANUFACTURINGORDER</PARAMETER>
+       <TYP>AUFNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>MANUFACTURINGORDEROPERATION</PARAMETER>
+       <TYP>VORNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PALLETCODE</PARAMETER>
+       <TYP>MATNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>TOBECONFIRMEDQTY</PARAMETER>
+       <TYP>GAMNG</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>TOBEPRODUNIT</PARAMETER>
+       <TYP>MEINS</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_TYPE</PARAMETER>
+       <TYP>SYST_MSGTY</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EV_MESSAGE</PARAMETER>
+       <TYP>CHAR250_D</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>MANUFACTURINGORDER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Order Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MANUFACTURINGORDEROPERATION</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Activity Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PALLETCODE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pallet Code</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TOBECONFIRMEDQTY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Total Order Quantity</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TOBEPRODUNIT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Base Unit of Measure</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_TYPE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>ABAP System Field: Message Type</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_MESSAGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Data field</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

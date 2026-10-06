@@ -1,0 +1,5 @@
+@MappingRole: true
+define role ZC_HuPrefix {
+  grant select on ZC_HuPrefix
+  where INHERITING CONDITIONS FROM ENTITY ZI_HuPrefix;
+}
